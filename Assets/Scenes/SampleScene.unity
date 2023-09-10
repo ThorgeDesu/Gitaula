@@ -880,7 +880,7 @@ MonoBehaviour:
   movimentoJogador: 4
   forcaPuloJogador: 500
   duracaoEsquiva: 0.5
-  velocidadeEsquiva: 10
+  velocidadeEsquiva: 100
 --- !u!1 &773553789
 GameObject:
   m_ObjectHideFlags: 0
