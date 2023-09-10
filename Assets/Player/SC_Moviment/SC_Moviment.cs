@@ -17,7 +17,7 @@ public class SC_Moviment : MonoBehaviour
 
 public void Start()
     {
-        rigidbody2D = GetComponent<Rigidbody2D>();
+        rigidbody2D = GetComponent<Rigidbody2D>(); 
 
     }
 
