@@ -5,6 +5,7 @@ using UnityEngine;
 public class SC_Moviment : MonoBehaviour
 {
 [Header("Movimentacao do jogador")]
+//TESTEEEEEEE
     private new Rigidbody2D rigidbody2D;
     public float movimentoJogador = 4f;
     public float forcaPuloJogador = 500f;
