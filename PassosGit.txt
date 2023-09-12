@@ -1,0 +1,13 @@
+git add --all 			        (assim q terminar ANTES DE DESLIGAR)
+
+git commit -m "mensagem" 	    (mensagem falando oq fez)
+
+git push origin cachoeira 	    (envia para a fila do git)
+
+git checkout main 		        (para mandar na brench principal)
+
+	-ir no git e da merge 	    (avisar o bruno)
+
+git pull --rebase origin main 	(puxar a principal para o pc)
+
+git checkout -b 		        (e a nova mudança)
