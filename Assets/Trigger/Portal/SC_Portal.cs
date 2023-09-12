@@ -28,8 +28,9 @@ void OnTriggerEnter2D(Collider2D other)
 void TeleportPlayer(GameObject player)
     {
         int targetportalID = (portalID == 1) ? 2 : 1;
+Debug.Log(targetportalID);
         GameObject[] portals = GameObject.FindGameObjectsWithTag("Portal");
-
+Debug.Log(portals);
         foreach (GameObject portal in portals)
         {
             SC_Portal portalScript = portal.GetComponent<SC_Portal>();
