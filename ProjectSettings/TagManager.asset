@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - triggerVitoria
+  - Portal
+  - BarreiraLimitadora
+  - Chao
+  - Espinhos
+  - "Vegeta\xE7\xE3o"
   layers:
   - Default
   - TransparentFX

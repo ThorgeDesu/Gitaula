@@ -6,10 +6,7 @@ using UnityEngine.Assertions.Must;
 
 public class SC_Moviment : MonoBehaviour
 {
-
-private TrailRenderer TracoDaEsquiva;
-
-    [Header("Movimentacao")]
+[Header("Movimentacao")]
     private new Rigidbody2D rigidbody2D;
     public float movimentoJogador = 4f;
     public float forcaPuloJogador = 500f;
@@ -21,6 +18,7 @@ private TrailRenderer TracoDaEsquiva;
     private Vector2 direcaoEsquiva;
     private bool esquivaAtiva;
     private bool podeEsquivar = true; 
+    private TrailRenderer TracoDaEsquiva;
 
 
     public void Start()
